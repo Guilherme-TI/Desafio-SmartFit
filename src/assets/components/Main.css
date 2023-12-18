@@ -1,0 +1,164 @@
+.container{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.header h1{
+    position: relative;
+    margin-top: 2em;
+    font-family: 'Gotham';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header h1::before{
+    position: absolute;
+    content: '';
+    width: 7%;
+    height: 10px;
+    background-color: var(--dark-grey);
+    bottom: 10px;
+    border-radius: 5px;
+    top: 3em;
+}
+.header p{
+    margin-top: 4em;
+    font-family: 'Gotham';
+    font-weight: normal;
+}
+.horario{
+    margin-top: 2em;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 2px rgb(214, 213, 213);
+}
+.header-hour{
+    display: flex;
+}
+.header-hour img{
+    width: 1.5rem;
+    padding: 5px;
+}
+.header-hour span{
+    font-family: 'Gotham';
+    font-weight: normal;
+}
+.h2{
+    border-bottom: 1px solid lightgray;
+}
+.h2 h2{
+    margin-top: 0.5em;
+    font-family: 'Gotham';
+    font-weight: 300;
+}
+.container-manha{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    margin-top: 1.3em;
+    font-family: 'Gotham';
+    font-weight: normal;
+}
+.container-tarde{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    margin-top: 1.3em;
+    font-family: 'Gotham';
+    font-weight: normal;
+}
+.container-noite{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    margin-top: 1.3em;
+    font-family: 'Gotham';
+    font-weight: normal;
+}
+.unidades{
+    display: flex;
+    justify-content: space-between;
+}
+.unidadesFechadas{
+    margin-top: 2.5em;
+    font-family: 'Gotham';
+    font-weight: normal;
+}
+.unidadesEncontradas{
+    margin-top: 2.5em;
+    font-family: 'Gotham';
+    font-weight: normal;
+}
+.botoes{
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.botao-encontrarUnidade button {
+    background-color: var(--yellow);
+    color: black;
+    font-family: 'Gotham';
+    font-weight: 900;
+    width: 20em;
+    border: 0;
+    height: 3em;
+    margin: 10px;
+}
+
+.botao-limpar button {
+    background-color: white;
+    color: black;
+    font-family: 'Gotham';
+    font-weight: 900;
+    width: 20em;
+    border: 1px solid var(--dark-grey);
+    height: 3em;
+    margin: 10px;
+}
+.aviso{
+    background-color: rgb(235, 232, 232);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    width: 100%;
+}
+.aviso img{
+    width: 4rem;
+}
+.mascara, .toalha, .bebedouro, .vestiarios{
+    display: flex;
+    margin-top: 1em;
+}
+.obrigatorio, .recomendado, .parcial, .proibido{
+    margin: 10px;
+}
+.card-aviso{
+    text-align: center;
+    margin-top: 1.2em;
+    margin-bottom: 1.5em;
+}
+.titulo-aviso{
+    font-family: 'Gotham';
+    font-weight: bold;
+}
+@media (max-width:785px){
+    .aviso{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+.flexbox{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around; /* Distribui os cards igualmente */
+    align-items: center; /* Centraliza os cards verticalmente */
+}
+.unidade{
+    background-color: rgb(235, 232, 232);
+    width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.Navbar{
+    background-color: var(--dark-grey);
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 9rem;
+    padding: 10px;
+}

@@ -1,0 +1,20 @@
+.Footer{
+    margin-top: 4em;
+    background-color: var(--dark-grey);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.logo-footer{
+    margin-bottom: 3.2em;
+}
+.logo-footer img{
+    margin-top: 1.5em;
+    width: 7rem;
+    padding: 10px;
+}
+.Footer span{
+    color: white;
+    font-family: 'Gotham';
+    font-weight: normal;
+}
