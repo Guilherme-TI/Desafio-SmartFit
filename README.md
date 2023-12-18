@@ -1,8 +1,6 @@
-# React + Vite
+# Desafio front-end da Smart Fit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Link do desafio: https://github.com/bioritmo/front-end-code-challenge-smartsite
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O intuito do projeto é colocar a prova os meus conhecimentos com programção front-end. Para esse desafio eu utilizei o React. Consegui cumprir com a parte do layout e responsividade. Na parte lógica da aplicação eu cumpri com as etapas de carregar as unidades de academias dentro do arquivo Json: https://test-frontend-developer.s3.amazonaws.com/data/locations.jso
+No entanto ficou faltando: Mostrar unidades ao buscar e filtrar a busca.
